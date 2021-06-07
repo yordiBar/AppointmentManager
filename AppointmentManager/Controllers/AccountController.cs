@@ -15,7 +15,15 @@ namespace AppointmentManager.Controllers
         {
             _db = db;
         }
+
+        // GET: Login
         public IActionResult Login()
+        {
+            return View();
+        }
+
+        // GET: Register
+        public IActionResult Register()
         {
             return View();
         }
